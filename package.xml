@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packagerversion="1.9.0" version="2.0" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>sfPackageMaker2Plugin</name>
+ <channel>pear.symfony-project.com</channel>
+ <summary>create package.xml files from a skeleton</summary>
+ <description>create package.xml files from a skeleton</description>
+ <lead>
+  <name>Cedric Lombardot</name>
+  <user>lombardot</user>
+  <email>cedric.lombardot@spyrit.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2010-01-29</date>
+ <time>10:23:51</time>
+ <version>
+  <release>1.0.0</release>
+  <api>1.0.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.symfony-project.com/license">MIT</license>
+ <notes>
+-
+ </notes>
+ <contents>
+  <dir name="/">
+   <file md5sum="4209c7d8638f2229b2f176de6013bdde" name="lib/task/sfPluginPackageTask.class.php" role="data"/>
+   <file md5sum="d81b882db681e7c17991f196a9b25f99" name="LICENSE" role="data"/>
+   <file md5sum="e3818f24a7c920e68d9430ae6b511cc6" name="package-skeleton.xml" role="data"/>
+   <file md5sum="921485592e97d22dd7d71da844d71a75" name="README" role="data"/>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.1.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.1</min>
+   </pearinstaller>
+   
+  </required>
+ </dependencies>
+ <phprelease/>
+ <changelog>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <license uri="http://www.symfony-project.com/license">MIT</license>
+   <date>2009-01-26</date>
+   <notes>
+A new version for sf1.2 with more options
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <license uri="http://www.symfony-project.com/license">MIT</license>
+   <date>2010-01-29</date>
+   <notes>
+Set compatible for sf1.3 and 1.4
+   </notes>
+  </release>
+ </changelog>
+</package>
